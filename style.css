@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1rem;
+    margin: 0 5px 0 5px;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    transition: .3s;
+}
+
+[data-click='verde']:hover {
+    background-color: 	#00FF00;
+    color: #fff;
+    font-weight: bold;
+}
+
+[data-click='amarelo']:hover {
+    background-color: #ffff00;
+    color: #fff;
+    font-weight: bold;
+}
+
+[data-click='vermelho']:hover {
+    background-color: 	#FF4500;
+    color: #fff;
+    font-weight: bold;
+}
