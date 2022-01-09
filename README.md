@@ -7,5 +7,5 @@
 ## imagens utlizadas
 <img src="img/desligado.png">
 <img src="img/verde.png">
-<img src="img/amarelço.png">
+<img src="img/amarelo.png">
 <img src="img/vermelho.png">
